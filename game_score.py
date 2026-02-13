@@ -1,12 +1,13 @@
+# Input player details
 player_name = input("Enter Player Name: ")
 games_played = int(input("Enter Number Of Games Played: "))
 total_score = int(input("Enter Total Score: "))
-
+#conditon of average
 if games_played > 0:
     average_score = total_score / games_played
 else:
     average_score = 0
-
+#output
 print(f"Player : {player_name}")
 print()
 print(f"Games Played : {games_played}")
